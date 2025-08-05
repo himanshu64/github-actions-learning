@@ -16,6 +16,7 @@ jobs:
         run: ls
       - name: Install Dependencies
         run: npm ci
+        working-directory: 04-using-actions/react-app
     # 0. Checkout the code of the repository
     # 1. Install deps
     # 2. Execute Automated tests
